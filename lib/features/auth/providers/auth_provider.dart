@@ -78,16 +78,18 @@ final userProfileProvider = FutureProvider<UserProfile?>((ref) async {
   }
 
   // File debug logging
-  try {
-    final logFile = File('db_debug_log.txt');
-    final logMessage = "=== DB PROFILE FETCH ${DateTime.now().toIso8601String()} ===\n"
-        "User ID: ${user.id}\n"
-        "User Email: ${user.email}\n"
-        "user_profiles row: $profileData (Err: $error1)\n"
-        "Merged Data: $mergedData\n"
-        "====================================\n\n";
-    logFile.writeAsStringSync(logMessage, mode: FileMode.append);
-  } catch (_) {}
+  if (!kIsWeb) {
+    try {
+      final logFile = File('db_debug_log.txt');
+      final logMessage = "=== DB PROFILE FETCH ${DateTime.now().toIso8601String()} ===\n"
+          "User ID: ${user.id}\n"
+          "User Email: ${user.email}\n"
+          "user_profiles row: $profileData (Err: $error1)\n"
+          "Merged Data: $mergedData\n"
+          "====================================\n\n";
+      logFile.writeAsStringSync(logMessage, mode: FileMode.append);
+    } catch (_) {}
+  }
 
   if (mergedData.isEmpty) {
     return UserProfile(
