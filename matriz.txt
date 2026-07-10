@@ -1,0 +1,177 @@
+ANEXOS
+ANEXO 1. MATRIZ DE PUNTOS DE HISTORIA
+Puntos
+
+Cantidad
+
+de Cantidad
+
+de
+
+de
+
+esfuerzo
+
+tiempo
+
+Historia
+
+requerido
+
+requerido
+
+1
+
+Mínimo
+
+Unos minutos
+
+2
+
+Mínimo
+
+3
+
+Poco
+
+4
+
+Poco
+
+5
+
+Poco
+
+6
+
+Leve
+
+7
+
+Leve
+
+8
+
+Moderado
+
+9
+
+Moderado
+
+10
+
+Severo
+
+11
+
+Severo
+
+13
+
+Alto
+
+14
+
+Muy Alto
+
+15
+
+Máximo
+
+Complejidad
+de la tarea
+
+Riesgo
+
+Incertidumbre de
+la tarea
+
+Mínima
+
+Ninguno
+
+Mínima
+
+Ninguno
+
+Baja
+
+Ninguno
+
+Baja
+
+Bajo
+
+Baja
+
+Bajo
+
+1 día
+
+Media
+
+Bajo
+
+Pocos días
+
+Media
+
+Moderado
+
+Media
+
+Moderado
+
+Media
+
+Moderado
+
+Alta
+
+Moderado
+
+Alta
+
+Alto
+
+Alta
+
+Alto
+
+1 mes
+
+Muy Alta
+
+Muy Alto
+
+1-2 meses
+
+Extrema
+
+Demasiado
+
+Menos de 1
+hora
+1 hora
+Unas
+
+pocas
+
+horas
+Menos de 1
+día
+
+Menos de 1
+semana
+1 semana
+Menos de 2
+semanas
+2 semanas
+Menos de 1
+mes
+
+o
+
+148
+
+
